@@ -1,8 +1,7 @@
 import profile from '../assets/rsivangiProfile.jpg'
-export const Hero=() =>
-{
-    return(
-        <div className='bg-black text-white text-center py-16'>
+export const Hero = () => {
+    return (
+        <div className='bg-black text-white text-center py-16' id='hero'>
             <img src={profile} alt="ProfilePic" className='mx-auto mb-8 w-48 h-48 rounded-full object-cover 
             transform transition-transform duration-300 hover:scale-105'/>
             <h1 className='text-4xl font-bold'>
@@ -15,8 +14,13 @@ export const Hero=() =>
                 I specialize in both Frontend and backend technologies.
             </p>
             <div className='mt-8 space-x-4'>
-                <button className="bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline
-            transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full">Contact With Me</button>
+                <a href="#Contact">
+                    <button className="bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline
+    transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full">
+                        Contact With Me
+                    </button>
+                </a>
+
                 <button className="bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline
             transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full">Resume</button>
             </div>
