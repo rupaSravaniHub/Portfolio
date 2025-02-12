@@ -14,7 +14,7 @@ export const About = () => {
     const education = [
         {
             id: 0,
-            College: "Sri vasavi engineering college, Pedatadepalli, Tadepalligudem",
+            College: "Sri Vasavi Engineering college, Pedatadepalli, Tadepalligudem",
             date: "Aug 2019 - Apr 2023",
             grade: "8.11 CGPA",
             degree: "Bachelor of Technology - BTech, Electronics and Communication Engineering",
